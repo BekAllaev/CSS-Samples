@@ -1,0 +1,21 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url("images/mountains.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.titleHeader {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 3.2em;
+}
