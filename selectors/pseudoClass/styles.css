@@ -1,0 +1,14 @@
+:link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: violet;
+}
+
+:visited {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+:hover {
+    height: 500px;
+    width: 500px;
+}
