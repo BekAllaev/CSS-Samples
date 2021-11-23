@@ -1,0 +1,38 @@
+.display-flex {
+    display: flex;
+}
+
+#flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-direction {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.number-box {
+    background-color: black;
+    color: white;
+    margin-right: 15px;
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#flex-column .number-box {
+    margin-top: 10px;
+}
+
+#flex-wrap {
+    flex-wrap: wrap;
+}
+
+#flex-wrap .wrapped {
+    background-color: brown;
+    margin-top: 10px;
+}
