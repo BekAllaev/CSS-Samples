@@ -7,6 +7,12 @@ body {
     font-family: 'Libre Baskerville', sans-serif;
 }
 
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 100px;
+}
+
 .bg-image {
     filter: blur(8px);
     -webkit-filter: blur(8px);
@@ -18,7 +24,7 @@ body {
 }
 
 header {
-    color: whitesmoke;
+    color: white;
     font-weight: normal;
     font-family: 'Julius Sans One', sans-serif;
     transform: translate(0%, -300%);
@@ -44,4 +50,25 @@ ul {
     height: 30px;
     text-align: center;
     border-radius: 5px;
+}
+
+#article-div {
+    border-width: thin;
+    border-style: solid;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+
+article>img {
+    height: 250px;
+    width: 500px;
+    margin: 20px;
+}
+
+article {
+    margin: 10px;
+}
+
+div>aside>article:nth-child(n+2) {
+    margin-top: 50px;
 }
