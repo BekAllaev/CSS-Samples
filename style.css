@@ -72,3 +72,21 @@ article {
 div>aside>article:nth-child(n+2) {
     margin-top: 50px;
 }
+
+
+/* Different approaches to select all articles tag starting from second */
+
+
+/* div article:nth-child(n+2) {
+    margin-top: 50px;
+} */
+
+
+/* aside article:nth-child(n+2) {
+    margin-top: 50px;
+} */
+
+
+/* article:nth-child(n+2) {
+    margin-top: 50px;
+} */
